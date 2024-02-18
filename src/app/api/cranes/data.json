@@ -1,0 +1,341 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "craneId": "1",
+        "height": 187,
+        "radius": 122,
+        "timestamp": 1705232121,
+        "image": "https://images.pexels.com/photos/7245353/pexels-photo-7245353.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2&index=0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-0.11433123536651221, 51.497263819259494]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "craneId": "2",
+        "height": 275,
+        "radius": 109,
+        "timestamp": 1705232121,
+        "image": "https://t3.ftcdn.net/jpg/00/71/80/08/360_F_71800864_SvUJAXhYoHVxInt52qFLaf6oxuuc32gL.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-0.1149200627442593, 51.4970587122]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "craneId": "3",
+        "height": 53,
+        "radius": 91,
+        "timestamp": 1705232121,
+        "image": "https://c8.alamy.com/comp/EXMT2E/cranes-in-the-city-of-london-EXMT2E.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-0.09874059769622952, 51.51428631981964]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "craneId": "4",
+        "height": 234,
+        "radius": 104,
+        "timestamp": 1705232121,
+        "image": "https://www.shutterstock.com/shutterstock/photos/2353031057/display_1500/stock-photo-london-uk-august-st-pauls-cathedral-surrounded-by-construction-cranes-2353031057.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-0.10384662070591874, 51.506350672575515]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "craneId": "5",
+        "height": 77,
+        "radius": 35,
+        "timestamp": 1705232121,
+        "image": "https://media.istockphoto.com/id/1167905876/photo/london-citys-financial-district-skyline-with-all-iconic-buildings-and-construction-cranes.jpg?s=612x612&w=0&k=20&c=GXwFamCRh7DlNPm-qzus84i9JZsJlbsP-VHqYuUmVsA="
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-0.1218620467606042, 51.504695183961275]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "craneId": "6",
+        "height": 61,
+        "radius": 75,
+        "timestamp": 1705280394,
+        "image": "https://c8.alamy.com/comp/EXMT2E/cranes-in-the-city-of-london-EXMT2E.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-0.10701641144000305, 51.50180701131141]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "craneId": "7",
+        "height": 53,
+        "radius": 127,
+        "timestamp": 1705280394,
+        "image": "https://c8.alamy.com/comp/EXMT2E/cranes-in-the-city-of-london-EXMT2E.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-0.09425554153211935, 51.50517805771138]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "craneId": "8",
+        "height": 221,
+        "radius": 79,
+        "timestamp": 1705280394,
+        "image": "https://c8.alamy.com/comp/EXMT2E/cranes-in-the-city-of-london-EXMT2E.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-0.10607721553295997, 51.5005941236613]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "craneId": "9",
+        "height": 160,
+        "radius": 47,
+        "timestamp": 1705280394,
+        "image": "https://c8.alamy.com/comp/EXMT2E/cranes-in-the-city-of-london-EXMT2E.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-0.11766537868031536, 51.509112593520655]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "craneId": "10",
+        "height": 64,
+        "radius": 84,
+        "timestamp": 1705280394,
+        "image": "https://c8.alamy.com/comp/EXMT2E/cranes-in-the-city-of-london-EXMT2E.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-0.11117899308378665, 51.50305965491295]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "craneId": "11",
+        "height": 243,
+        "radius": 120,
+        "timestamp": 1705354435,
+        "image": "https://images.pexels.com/photos/7245353/pexels-photo-7245353.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2&index=3"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-0.10536901340133668, 51.496558078576946]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "craneId": "12",
+        "height": 100,
+        "radius": 90,
+        "timestamp": 1705354435,
+        "image": "https://images.pexels.com/photos/7245353/pexels-photo-7245353.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2&index=3"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-0.10702058353176155, 51.51333735639661]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "craneId": "13",
+        "height": 158,
+        "radius": 61,
+        "timestamp": 1705354435,
+        "image": "https://images.pexels.com/photos/7245353/pexels-photo-7245353.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2&index=3"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-0.1013700192375014, 51.49987945696387]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "craneId": "14",
+        "height": 177,
+        "radius": 118,
+        "timestamp": 1705354435,
+        "image": "https://images.pexels.com/photos/7245353/pexels-photo-7245353.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2&index=3"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-0.10161997647498605, 51.51054792156448]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "craneId": "15",
+        "height": 221,
+        "radius": 57,
+        "timestamp": 1705354435,
+        "image": "https://images.pexels.com/photos/7245353/pexels-photo-7245353.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2&index=3"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-0.12475318939258816, 51.50132321254501]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "craneId": "16",
+        "height": 123,
+        "radius": 35,
+        "timestamp": 1705307333,
+        "image": "https://www.shutterstock.com/shutterstock/photos/2353031057/display_1500/stock-photo-london-uk-august-st-pauls-cathedral-surrounded-by-construction-cranes-2353031057.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-0.10984847503983988, 51.512904831395254]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "craneId": "17",
+        "height": 145,
+        "radius": 113,
+        "timestamp": 1705307333,
+        "image": "https://www.shutterstock.com/shutterstock/photos/2353031057/display_1500/stock-photo-london-uk-august-st-pauls-cathedral-surrounded-by-construction-cranes-2353031057.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-0.10139748495285902, 51.497345725257]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "craneId": "18",
+        "height": 125,
+        "radius": 96,
+        "timestamp": 1705307333,
+        "image": "https://www.shutterstock.com/shutterstock/photos/2353031057/display_1500/stock-photo-london-uk-august-st-pauls-cathedral-surrounded-by-construction-cranes-2353031057.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-0.1200828901143363, 51.50100606850154]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "craneId": "19",
+        "height": 129,
+        "radius": 137,
+        "timestamp": 1705307333,
+        "image": "https://www.shutterstock.com/shutterstock/photos/2353031057/display_1500/stock-photo-london-uk-august-st-pauls-cathedral-surrounded-by-construction-cranes-2353031057.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-0.12518775866199497, 51.50449288520402]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "craneId": "20",
+        "height": 279,
+        "radius": 90,
+        "timestamp": 1705307333,
+        "image": "https://www.shutterstock.com/shutterstock/photos/2353031057/display_1500/stock-photo-london-uk-august-st-pauls-cathedral-surrounded-by-construction-cranes-2353031057.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-0.09943138225742051, 51.49820852900131]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "craneId": "21",
+        "height": 147,
+        "radius": 74,
+        "timestamp": 1705383194,
+        "image": "https://t3.ftcdn.net/jpg/00/71/80/08/360_F_71800864_SvUJAXhYoHVxInt52qFLaf6oxuuc32gL.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-0.1174855545800235, 51.5008315750743]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "craneId": "22",
+        "height": 144,
+        "radius": 67,
+        "timestamp": 1705383194,
+        "image": "https://media.istockphoto.com/id/1167905876/photo/london-citys-financial-district-skyline-with-all-iconic-buildings-and-construction-cranes.jpg?s=612x612&w=0&k=20&c=GXwFamCRh7DlNPm-qzus84i9JZsJlbsP-VHqYuUmVsA="
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-0.12003226436123904, 51.510042959039296]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "craneId": "23",
+        "height": 243,
+        "radius": 90,
+        "timestamp": 1705383194,
+        "image": "https://media.istockphoto.com/id/1167905876/photo/london-citys-financial-district-skyline-with-all-iconic-buildings-and-construction-cranes.jpg?s=612x612&w=0&k=20&c=GXwFamCRh7DlNPm-qzus84i9JZsJlbsP-VHqYuUmVsA="
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-0.11981069161203699, 51.508453467509696]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "craneId": "24",
+        "height": 124,
+        "radius": 102,
+        "timestamp": 1705383194,
+        "image": "https://media.istockphoto.com/id/1167905876/photo/london-citys-financial-district-skyline-with-all-iconic-buildings-and-construction-cranes.jpg?s=612x612&w=0&k=20&c=GXwFamCRh7DlNPm-qzus84i9JZsJlbsP-VHqYuUmVsA="
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-0.09281834099061975, 51.50057585662843]
+      }
+    }
+  ]
+}

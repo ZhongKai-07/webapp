@@ -1,0 +1,697 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Crane Page renders the Components 1`] = `
+<DocumentFragment>
+  <div
+    class="overflow-hidden w-full h-[calc(100%)] flex flex-col"
+  >
+    <div
+      class="flex justify-between w-full bg-white border-b-2 h-[7.5em]"
+    >
+      <div
+        class="ml-[2em] relative flex justify-evenly items-center"
+      >
+        <img
+          alt="apian logo"
+          class="float-left reletive w-[10em]"
+          height="0"
+          src="/images/Apian_logo_transparent_bg.png"
+          width="0"
+        />
+        <div
+          class="relative block bg-black h-[3.5em] w-[2px] mx-[10px]"
+        />
+        <img
+          alt="UCL logo"
+          class="float-left relative w-[10em]"
+          height="0"
+          src="/images/ucl_logo.jpg"
+          width="0"
+        />
+        <p
+          class="relative w-[15em] text-4xl whitespace-nowrap"
+        >
+          Drone Deliveries
+        </p>
+      </div>
+      <div
+        class="mr-[5em] items-center flex relative h-full"
+      >
+        <nav
+          class="relative"
+        >
+          <ul
+            class="items-center text-2xl flex justify-around gap-[2em] relative"
+          >
+            <li>
+              <a
+                href="/"
+              >
+                Home
+              </a>
+              <div
+                class="relative -mb-px h-px bg-black w-0"
+                style="transition: width 300ms ease;"
+              />
+            </li>
+            <li>
+              <a
+                href="/cranespotting"
+              >
+                Crane Spotting
+              </a>
+              <div
+                class="relative -mb-px h-px bg-black w-0"
+                style="transition: width 300ms ease;"
+              />
+            </li>
+            <li>
+              <a
+                href="/dropzone"
+              >
+                Drop Zone
+              </a>
+              <div
+                class="relative -mb-px h-px bg-black w-0"
+                style="transition: width 300ms ease;"
+              />
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <div
+      class="w-[calc(100%-3em)] overflow-hidden p-[0.5em] grid grid-cols-2 grid-rows-2 gap-[3em] m-[1.5em]"
+    >
+      <div
+        class="w-full h-full"
+      >
+        <div
+          class="flex flex-col"
+        >
+          <div
+            class="flex justify-center space-x-2 p-3"
+            data-testid="date-selector"
+          />
+          <table
+            data-testid="crane-data-table"
+            style="width: 100%;"
+          >
+            <thead
+              class="bg-gray-100"
+            >
+              <tr>
+                <th
+                  class="px-6 py-3 text-left text-xs font-medium uppercase tracking-wider text-gray-500"
+                >
+                  Select
+                </th>
+                <th
+                  class="px-6 py-3 text-left text-xs font-medium uppercase tracking-wider text-gray-500"
+                >
+                  Time
+                </th>
+                <th
+                  class="px-6 py-3 text-left text-xs font-medium uppercase tracking-wider text-gray-500"
+                >
+                  Cranes detected
+                </th>
+              </tr>
+            </thead>
+            <tbody
+              class="bg-white"
+            />
+          </table>
+          <div
+            class="bg-white p-2 text-center text-sm text-gray-600"
+            data-testid="footer"
+          >
+            Last Data refresh: Invalid Date
+          </div>
+          <div
+            class="flex w-full justify-center"
+          >
+            <button
+              class="rounded-full w-1/3 content-center  px-5 py-1 text-base font-medium text-gray-700 border-2 border-apian-yellow active:bg-apian-yellow hover:bg-apian-yellow-opacity-50"
+            >
+              Clear Selections - (0 selected)
+            </button>
+          </div>
+        </div>
+      </div>
+      <div
+        class="h-[98%] w-[98%] shadow-box-grey rounded-lg"
+      >
+        <div
+          class="flex animate-pulse items-center justify-center rounded-lg bg-gray-300 dark:bg-gray-700"
+          role="status"
+          style="width: 100%; height: 100%;"
+        >
+          <svg
+            aria-hidden="true"
+            class="h-10 w-10 text-gray-200 dark:text-gray-600"
+            fill="currentColor"
+            viewBox="0 0 48 48"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g
+              fill="currentColor"
+            >
+              <path
+                d="M23.143 37.881c4.178-6.076 9.957-15.809 9.957-23.164a14.718 14.718 0 0 0-29.435 0c0 7.357 5.783 17.094 9.961 23.168C6.3 38.391 0 40.074 0 42.858 0 46.235 9.248 48 18.383 48s18.384-1.766 18.384-5.143c0-2.782-6.293-4.47-13.624-4.976zM5.121 14.717a13.264 13.264 0 0 1 26.527 0c0 9.492-10.665 23.852-13.264 27.209-2.598-3.357-13.263-17.713-13.263-27.209zm13.262 31.829c-10.334 0-16.929-2.184-16.929-3.688 0-1.309 5.03-3.123 13.155-3.57a91.912 91.912 0 0 0 3.209 4.273.729.729 0 0 0 1.129 0 93.58 93.58 0 0 0 3.213-4.277c8.125.447 13.151 2.266 13.151 3.574.002 1.504-6.593 3.688-16.928 3.688z"
+              />
+              <path
+                d="M26.383 14.848a8 8 0 1 0-8 8 8.009 8.009 0 0 0 8-8zm-14.545 0a6.546 6.546 0 1 1 6.545 6.545 6.555 6.555 0 0 1-6.545-6.545z"
+              />
+            </g>
+          </svg>
+          <span
+            class="sr-only"
+          >
+            Loading...
+          </span>
+        </div>
+      </div>
+      <div
+        class="row-start-2 h-[80%] w-[80%] max-w-[98%] max-h-[98%] m-auto"
+      >
+        <div
+          class="w-full h-full"
+        >
+          <div
+            class="h-full w-full space-y-8 animate-pulse md:space-y-0 md:space-x-8 rtl:space-x-reverse md:flex md:items-center h-full w-full"
+            role="status"
+          >
+            <div
+              class="flex items-center justify-center bg-gray-300 rounded sm:w-96 dark:bg-gray-700"
+              style="width: 100%; height: 100%;"
+            >
+              <svg
+                aria-hidden="true"
+                class="w-10 h-10 text-gray-200 dark:text-gray-600"
+                fill="currentColor"
+                viewBox="0 0 20 18"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M18 0H2a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2Zm-5.5 4a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3Zm4.376 10.481A1 1 0 0 1 16 15H4a1 1 0 0 1-.895-1.447l3.5-7A1 1 0 0 1 7.468 6a.965.965 0 0 1 .9.5l2.775 4.757 1.546-1.887a1 1 0 0 1 1.618.1l2.541 4a1 1 0 0 1 .028 1.011Z"
+                />
+              </svg>
+            </div>
+            <span
+              class="sr-only"
+            >
+              Loading...
+            </span>
+          </div>
+        </div>
+      </div>
+      <div
+        class="row-start-2"
+        style="overflow-y: scroll;"
+      >
+        <div
+          class="flex w-full h-full overflow-hidden justify-between"
+        >
+          <img
+            alt="image of a crane"
+            class="ml-[-8em] w-[70%] mt-[-4em]"
+            height="0"
+            src="/images/missing_crane.png"
+            width="0"
+          />
+          <p
+            class="w-[48%]  pr-[1em] text-5xl"
+          >
+            Select some timestamps to view crane data and images.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`CranesPage Data conforms to snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="overflow-hidden w-full h-[calc(100%)] flex flex-col"
+  >
+    <div
+      class="flex justify-between w-full bg-white border-b-2 h-[7.5em]"
+    >
+      <div
+        class="ml-[2em] relative flex justify-evenly items-center"
+      >
+        <img
+          alt="apian logo"
+          class="float-left reletive w-[10em]"
+          height="0"
+          src="/images/Apian_logo_transparent_bg.png"
+          width="0"
+        />
+        <div
+          class="relative block bg-black h-[3.5em] w-[2px] mx-[10px]"
+        />
+        <img
+          alt="UCL logo"
+          class="float-left relative w-[10em]"
+          height="0"
+          src="/images/ucl_logo.jpg"
+          width="0"
+        />
+        <p
+          class="relative w-[15em] text-4xl whitespace-nowrap"
+        >
+          Drone Deliveries
+        </p>
+      </div>
+      <div
+        class="mr-[5em] items-center flex relative h-full"
+      >
+        <nav
+          class="relative"
+        >
+          <ul
+            class="items-center text-2xl flex justify-around gap-[2em] relative"
+          >
+            <li>
+              <a
+                href="/"
+              >
+                Home
+              </a>
+              <div
+                class="relative -mb-px h-px bg-black w-0"
+                style="transition: width 300ms ease;"
+              />
+            </li>
+            <li>
+              <a
+                href="/cranespotting"
+              >
+                Crane Spotting
+              </a>
+              <div
+                class="relative -mb-px h-px bg-black w-0"
+                style="transition: width 300ms ease;"
+              />
+            </li>
+            <li>
+              <a
+                href="/dropzone"
+              >
+                Drop Zone
+              </a>
+              <div
+                class="relative -mb-px h-px bg-black w-0"
+                style="transition: width 300ms ease;"
+              />
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <div
+      class="w-[calc(100%-3em)] overflow-hidden p-[0.5em] grid grid-cols-2 grid-rows-2 gap-[3em] m-[1.5em]"
+    >
+      <div
+        class="w-full h-full"
+      >
+        <div
+          class="flex flex-col"
+        >
+          <div
+            class="flex justify-center space-x-2 p-3"
+            data-testid="date-selector"
+          />
+          <table
+            data-testid="crane-data-table"
+            style="width: 100%;"
+          >
+            <thead
+              class="bg-gray-100"
+            >
+              <tr>
+                <th
+                  class="px-6 py-3 text-left text-xs font-medium uppercase tracking-wider text-gray-500"
+                >
+                  Select
+                </th>
+                <th
+                  class="px-6 py-3 text-left text-xs font-medium uppercase tracking-wider text-gray-500"
+                >
+                  Time
+                </th>
+                <th
+                  class="px-6 py-3 text-left text-xs font-medium uppercase tracking-wider text-gray-500"
+                >
+                  Cranes detected
+                </th>
+              </tr>
+            </thead>
+            <tbody
+              class="bg-white"
+            />
+          </table>
+          <div
+            class="bg-white p-2 text-center text-sm text-gray-600"
+            data-testid="footer"
+          >
+            Last Data refresh: Invalid Date
+          </div>
+          <div
+            class="flex w-full justify-center"
+          >
+            <button
+              class="rounded-full w-1/3 content-center  px-5 py-1 text-base font-medium text-gray-700 border-2 border-apian-yellow active:bg-apian-yellow hover:bg-apian-yellow-opacity-50"
+            >
+              Clear Selections - (0 selected)
+            </button>
+          </div>
+        </div>
+      </div>
+      <div
+        class="h-[98%] w-[98%] shadow-box-grey rounded-lg"
+      >
+        <div
+          class="flex animate-pulse items-center justify-center rounded-lg bg-gray-300 dark:bg-gray-700"
+          role="status"
+          style="width: 100%; height: 100%;"
+        >
+          <svg
+            aria-hidden="true"
+            class="h-10 w-10 text-gray-200 dark:text-gray-600"
+            fill="currentColor"
+            viewBox="0 0 48 48"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g
+              fill="currentColor"
+            >
+              <path
+                d="M23.143 37.881c4.178-6.076 9.957-15.809 9.957-23.164a14.718 14.718 0 0 0-29.435 0c0 7.357 5.783 17.094 9.961 23.168C6.3 38.391 0 40.074 0 42.858 0 46.235 9.248 48 18.383 48s18.384-1.766 18.384-5.143c0-2.782-6.293-4.47-13.624-4.976zM5.121 14.717a13.264 13.264 0 0 1 26.527 0c0 9.492-10.665 23.852-13.264 27.209-2.598-3.357-13.263-17.713-13.263-27.209zm13.262 31.829c-10.334 0-16.929-2.184-16.929-3.688 0-1.309 5.03-3.123 13.155-3.57a91.912 91.912 0 0 0 3.209 4.273.729.729 0 0 0 1.129 0 93.58 93.58 0 0 0 3.213-4.277c8.125.447 13.151 2.266 13.151 3.574.002 1.504-6.593 3.688-16.928 3.688z"
+              />
+              <path
+                d="M26.383 14.848a8 8 0 1 0-8 8 8.009 8.009 0 0 0 8-8zm-14.545 0a6.546 6.546 0 1 1 6.545 6.545 6.555 6.555 0 0 1-6.545-6.545z"
+              />
+            </g>
+          </svg>
+          <span
+            class="sr-only"
+          >
+            Loading...
+          </span>
+        </div>
+      </div>
+      <div
+        class="row-start-2 h-[80%] w-[80%] max-w-[98%] max-h-[98%] m-auto"
+      >
+        <div
+          class="w-full h-full"
+        >
+          <div
+            class="h-full w-full space-y-8 animate-pulse md:space-y-0 md:space-x-8 rtl:space-x-reverse md:flex md:items-center h-full w-full"
+            role="status"
+          >
+            <div
+              class="flex items-center justify-center bg-gray-300 rounded sm:w-96 dark:bg-gray-700"
+              style="width: 100%; height: 100%;"
+            >
+              <svg
+                aria-hidden="true"
+                class="w-10 h-10 text-gray-200 dark:text-gray-600"
+                fill="currentColor"
+                viewBox="0 0 20 18"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M18 0H2a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2Zm-5.5 4a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3Zm4.376 10.481A1 1 0 0 1 16 15H4a1 1 0 0 1-.895-1.447l3.5-7A1 1 0 0 1 7.468 6a.965.965 0 0 1 .9.5l2.775 4.757 1.546-1.887a1 1 0 0 1 1.618.1l2.541 4a1 1 0 0 1 .028 1.011Z"
+                />
+              </svg>
+            </div>
+            <span
+              class="sr-only"
+            >
+              Loading...
+            </span>
+          </div>
+        </div>
+      </div>
+      <div
+        class="row-start-2"
+        style="overflow-y: scroll;"
+      >
+        <div
+          class="flex w-full h-full overflow-hidden justify-between"
+        >
+          <img
+            alt="image of a crane"
+            class="ml-[-8em] w-[70%] mt-[-4em]"
+            height="0"
+            src="/images/missing_crane.png"
+            width="0"
+          />
+          <p
+            class="w-[48%]  pr-[1em] text-5xl"
+          >
+            Select some timestamps to view crane data and images.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Cranespotting Page renders the Components 1`] = `
+<DocumentFragment>
+  <div
+    class="overflow-hidden w-full h-[calc(100%)] flex flex-col"
+  >
+    <div
+      class="flex justify-between w-full bg-white border-b-2 h-[7.5em]"
+    >
+      <div
+        class="ml-[2em] relative flex justify-evenly items-center"
+      >
+        <img
+          alt="apian logo"
+          class="float-left reletive w-[10em]"
+          height="0"
+          src="/images/Apian_logo_transparent_bg.png"
+          width="0"
+        />
+        <div
+          class="relative block bg-black h-[3.5em] w-[2px] mx-[10px]"
+        />
+        <img
+          alt="UCL logo"
+          class="float-left relative w-[10em]"
+          height="0"
+          src="/images/ucl_logo.jpg"
+          width="0"
+        />
+        <p
+          class="relative w-[15em] text-4xl whitespace-nowrap"
+        >
+          Drone Deliveries
+        </p>
+      </div>
+      <div
+        class="mr-[5em] items-center flex relative h-full"
+      >
+        <nav
+          class="relative"
+        >
+          <ul
+            class="items-center text-2xl flex justify-around gap-[2em] relative"
+          >
+            <li>
+              <a
+                href="/"
+              >
+                Home
+              </a>
+              <div
+                class="relative -mb-px h-px bg-black w-0"
+                style="transition: width 300ms ease;"
+              />
+            </li>
+            <li>
+              <a
+                href="/cranespotting"
+              >
+                Crane Spotting
+              </a>
+              <div
+                class="relative -mb-px h-px bg-black w-0"
+                style="transition: width 300ms ease;"
+              />
+            </li>
+            <li>
+              <a
+                href="/dropzone"
+              >
+                Drop Zone
+              </a>
+              <div
+                class="relative -mb-px h-px bg-black w-0"
+                style="transition: width 300ms ease;"
+              />
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <div
+      class="w-[calc(100%-3em)] overflow-hidden p-[0.5em] grid grid-cols-2 grid-rows-2 gap-[3em] m-[1.5em]"
+    >
+      <div
+        class="w-full h-full"
+      >
+        <div
+          class="flex flex-col"
+        >
+          <div
+            class="flex justify-center space-x-2 p-3"
+            data-testid="date-selector"
+          />
+          <table
+            data-testid="crane-data-table"
+            style="width: 100%;"
+          >
+            <thead
+              class="bg-gray-100"
+            >
+              <tr>
+                <th
+                  class="px-6 py-3 text-left text-xs font-medium uppercase tracking-wider text-gray-500"
+                >
+                  Select
+                </th>
+                <th
+                  class="px-6 py-3 text-left text-xs font-medium uppercase tracking-wider text-gray-500"
+                >
+                  Time
+                </th>
+                <th
+                  class="px-6 py-3 text-left text-xs font-medium uppercase tracking-wider text-gray-500"
+                >
+                  Cranes detected
+                </th>
+              </tr>
+            </thead>
+            <tbody
+              class="bg-white"
+            />
+          </table>
+          <div
+            class="bg-white p-2 text-center text-sm text-gray-600"
+            data-testid="footer"
+          >
+            Last Data refresh: Invalid Date
+          </div>
+          <div
+            class="flex w-full justify-center"
+          >
+            <button
+              class="rounded-full w-1/3 content-center  px-5 py-1 text-base font-medium text-gray-700 border-2 border-apian-yellow active:bg-apian-yellow hover:bg-apian-yellow-opacity-50"
+            >
+              Clear Selections - (0 selected)
+            </button>
+          </div>
+        </div>
+      </div>
+      <div
+        class="h-[98%] w-[98%] shadow-box-grey rounded-lg"
+      >
+        <div
+          class="flex animate-pulse items-center justify-center rounded-lg bg-gray-300 dark:bg-gray-700"
+          role="status"
+          style="width: 100%; height: 100%;"
+        >
+          <svg
+            aria-hidden="true"
+            class="h-10 w-10 text-gray-200 dark:text-gray-600"
+            fill="currentColor"
+            viewBox="0 0 48 48"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g
+              fill="currentColor"
+            >
+              <path
+                d="M23.143 37.881c4.178-6.076 9.957-15.809 9.957-23.164a14.718 14.718 0 0 0-29.435 0c0 7.357 5.783 17.094 9.961 23.168C6.3 38.391 0 40.074 0 42.858 0 46.235 9.248 48 18.383 48s18.384-1.766 18.384-5.143c0-2.782-6.293-4.47-13.624-4.976zM5.121 14.717a13.264 13.264 0 0 1 26.527 0c0 9.492-10.665 23.852-13.264 27.209-2.598-3.357-13.263-17.713-13.263-27.209zm13.262 31.829c-10.334 0-16.929-2.184-16.929-3.688 0-1.309 5.03-3.123 13.155-3.57a91.912 91.912 0 0 0 3.209 4.273.729.729 0 0 0 1.129 0 93.58 93.58 0 0 0 3.213-4.277c8.125.447 13.151 2.266 13.151 3.574.002 1.504-6.593 3.688-16.928 3.688z"
+              />
+              <path
+                d="M26.383 14.848a8 8 0 1 0-8 8 8.009 8.009 0 0 0 8-8zm-14.545 0a6.546 6.546 0 1 1 6.545 6.545 6.555 6.555 0 0 1-6.545-6.545z"
+              />
+            </g>
+          </svg>
+          <span
+            class="sr-only"
+          >
+            Loading...
+          </span>
+        </div>
+      </div>
+      <div
+        class="row-start-2 h-[80%] w-[80%] max-w-[98%] max-h-[98%] m-auto"
+      >
+        <div
+          class="w-full h-full"
+        >
+          <div
+            class="h-full w-full space-y-8 animate-pulse md:space-y-0 md:space-x-8 rtl:space-x-reverse md:flex md:items-center h-full w-full"
+            role="status"
+          >
+            <div
+              class="flex items-center justify-center bg-gray-300 rounded sm:w-96 dark:bg-gray-700"
+              style="width: 100%; height: 100%;"
+            >
+              <svg
+                aria-hidden="true"
+                class="w-10 h-10 text-gray-200 dark:text-gray-600"
+                fill="currentColor"
+                viewBox="0 0 20 18"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M18 0H2a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2Zm-5.5 4a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3Zm4.376 10.481A1 1 0 0 1 16 15H4a1 1 0 0 1-.895-1.447l3.5-7A1 1 0 0 1 7.468 6a.965.965 0 0 1 .9.5l2.775 4.757 1.546-1.887a1 1 0 0 1 1.618.1l2.541 4a1 1 0 0 1 .028 1.011Z"
+                />
+              </svg>
+            </div>
+            <span
+              class="sr-only"
+            >
+              Loading...
+            </span>
+          </div>
+        </div>
+      </div>
+      <div
+        class="row-start-2"
+        style="overflow-y: scroll;"
+      >
+        <div
+          class="flex w-full h-full overflow-hidden justify-between"
+        >
+          <img
+            alt="image of a crane"
+            class="ml-[-8em] w-[70%] mt-[-4em]"
+            height="0"
+            src="/images/missing_crane.png"
+            width="0"
+          />
+          <p
+            class="w-[48%]  pr-[1em] text-5xl"
+          >
+            Select some timestamps to view crane data and images.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

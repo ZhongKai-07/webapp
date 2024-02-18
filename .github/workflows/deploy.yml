@@ -1,0 +1,102 @@
+name: Deploy to GCP
+
+on:
+  push:
+    branches:
+      - main
+
+concurrency:
+  group: production
+  cancel-in-progress: true
+
+jobs:
+  "build-webapp":
+    runs-on: ubuntu-latest
+    permissions:
+      contents: 'read'
+      id-token: 'write'
+
+    steps:
+      - name: ⬇️ Checkout repo
+        uses: actions/checkout@v4
+
+      - uses: pnpm/action-setup@v2
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+          # cache: 'pnpm'
+
+      # - name: Get pnpm store directory
+      #   shell: bash
+      #   run: |
+      #     echo "STORE_PATH=$(pnpm store path --silent)" >> $GITHUB_ENV
+
+      # - uses: actions/cache@v4
+      #   name: Setup pnpm cache
+      #   with:
+      #     path: ${{ env.STORE_PATH }}
+      #     key: ${{ runner.os }}-pnpm-store-${{ hashFiles('**/pnpm-lock.yaml') }}
+      #     restore-keys: |
+      #       ${{ runner.os }}-pnpm-store-
+
+      - name: Install dependencies
+        run: pnpm install
+
+      # - uses: actions/cache@v4
+      #   with:
+      #     path: |
+      #       ${{ github.workspace }}/.next/cache
+      #     key: ${{ runner.os }}-nextjs-${{ hashFiles('**/pnpm-lock.yaml') }}-${{ hashFiles('**/*.js', '**/*.jsx', '**/*.ts', '**/*.tsx') }}
+      #     restore-keys: |
+      #       ${{ runner.os }}-nextjs-${{ hashFiles('**/pnpm-lock.yaml') }}-
+
+      - id: 'auth'
+        uses: 'google-github-actions/auth@v2'
+        with:
+          workload_identity_provider: ${{ secrets.WORKLOAD_IDENTITY_PROVIDER }}
+          service_account: 'gh-actions-webapp-deploy@ucl-jan-2024.iam.gserviceaccount.com'
+  
+      - id: 'secrets'
+        uses: 'google-github-actions/get-secretmanager-secrets@v2'
+        with:
+          secrets: |-
+            token:projects/699745998962/secrets/mapbox-secret/versions/1
+
+      - name: Build
+        run: rm -r src/app/api && pnpm build
+        env:
+          NEXT_OUTPUT_MODE: 'export'
+          NEXT_PUBLIC_MAPBOX_KEY: ${{ steps.secrets.outputs.token }}
+
+  #     - name: Upload artifact
+  #       uses: actions/upload-artifact@v4
+  #       with:
+  #         name: app
+  #         path: out/
+
+  # deploy:
+  #   needs: "build-webapp"
+  #   runs-on: ubuntu-latest
+  #   permissions:
+  #     contents: 'read'
+  #     id-token: 'write'
+
+  #   steps:
+  #     - name: Download artifact
+  #       uses: actions/download-artifact@v4
+  #       with:
+  #         name: app
+  #         path: out/
+
+  #     - uses: 'google-github-actions/auth@v2'
+  #       with:
+  #         workload_identity_provider: ${{ secrets.WORKLOAD_IDENTITY_PROVIDER }}
+  #         service_account: 'gh-actions-webapp-deploy@ucl-jan-2024.iam.gserviceaccount.com'
+
+      - id: 'upload-file'
+        uses: 'google-github-actions/upload-cloud-storage@v2'
+        with:
+          path: 'out/'
+          destination: 'webapp-ucl-drone-deliveries'
+          parent: false

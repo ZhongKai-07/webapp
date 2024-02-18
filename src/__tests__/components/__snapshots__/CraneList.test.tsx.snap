@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the list of cranes correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="overflow-auto p-2 w-100"
+  >
+    <ul
+      class="m-0 list-none p-0 grid grid-cols-3 grid-rows-15 gap-2"
+    >
+      <li
+        class="mb-2 rounded bg-white p-2 shadow-box-grey-sm"
+      >
+        <div
+          class="font-bold"
+        >
+          Crane 1
+        </div>
+        <div>
+          Height: 50m
+        </div>
+        <div>
+          Radius: 10m
+        </div>
+      </li>
+      <li
+        class="mb-2 rounded bg-white p-2 shadow-box-grey-sm"
+      >
+        <div
+          class="font-bold"
+        >
+          Crane 2
+        </div>
+        <div>
+          Height: 40m
+        </div>
+        <div>
+          Radius: 8m
+        </div>
+      </li>
+    </ul>
+  </div>
+</DocumentFragment>
+`;

@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GeographySelectionButtons should match the snapshot with preselected 1`] = `
+<div>
+  <div
+    class="w-1/3justify-center flex gap-[1em] mt-[1em]"
+  >
+    <button
+      class="rounded-full px-5 py-1 text-base font-medium text-gray-700 border-2 border-apian-yellow bg-apian-yellow"
+    >
+      Individual
+    </button>
+    <button
+      class="rounded-full px-5 py-1 text-base font-medium text-gray-700 border-2 border-apian-yellow bg-white hover:bg-apian-yellow-opacity-50"
+    >
+      Isleofwight
+    </button>
+    <button
+      class="rounded-full px-5 py-1 text-base font-medium text-gray-700 border-2 border-apian-yellow bg-white hover:bg-apian-yellow-opacity-50"
+    >
+      Camden
+    </button>
+    <button
+      class="rounded-full px-5 py-1 text-base font-medium text-gray-700 border-2 border-apian-yellow bg-white hover:bg-apian-yellow-opacity-50"
+    >
+      Islington
+    </button>
+    <button
+      class="rounded-full px-5 py-1 text-base font-medium text-gray-700 border-2 border-apian-yellow bg-white hover:bg-apian-yellow-opacity-50"
+    >
+      Kensington
+    </button>
+    <button
+      class="rounded-full px-5 py-1 text-base font-medium text-gray-700 border-2 border-apian-yellow bg-white hover:bg-apian-yellow-opacity-50"
+    >
+      Northumbria
+    </button>
+  </div>
+</div>
+`;
+
+exports[`GeographySelectionButtons should match the snapshot without preselected 1`] = `
+<div>
+  <div
+    class="w-1/3justify-center flex gap-[1em] mt-[1em]"
+  >
+    <button
+      class="rounded-full px-5 py-1 text-base font-medium text-gray-700 border-2 border-apian-yellow bg-apian-yellow"
+    >
+      Individual
+    </button>
+  </div>
+</div>
+`;

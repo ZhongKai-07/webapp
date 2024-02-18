@@ -1,0 +1,116 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Homepage renders the Components 1`] = `
+<DocumentFragment>
+  <main
+    style="overflow: hidden;"
+  >
+    <div
+      class="flex justify-between w-full bg-white border-b-2 h-[7.5em]"
+    >
+      <div
+        class="ml-[2em] relative flex justify-evenly items-center"
+      >
+        <img
+          alt="apian logo"
+          class="float-left reletive w-[10em]"
+          height="0"
+          src="/images/Apian_logo_transparent_bg.png"
+          width="0"
+        />
+        <div
+          class="relative block bg-black h-[3.5em] w-[2px] mx-[10px]"
+        />
+        <img
+          alt="UCL logo"
+          class="float-left relative w-[10em]"
+          height="0"
+          src="/images/ucl_logo.jpg"
+          width="0"
+        />
+        <p
+          class="relative w-[15em] text-4xl whitespace-nowrap"
+        >
+          Drone Deliveries
+        </p>
+      </div>
+      <div
+        class="mr-[5em] items-center flex relative h-full"
+      >
+        <nav
+          class="relative"
+        >
+          <ul
+            class="items-center text-2xl flex justify-around gap-[2em] relative"
+          >
+            <li>
+              <a
+                href="/"
+              >
+                Home
+              </a>
+              <div
+                class="relative -mb-px h-px bg-black w-0"
+                style="transition: width 300ms ease;"
+              />
+            </li>
+            <li>
+              <a
+                href="/cranespotting"
+              >
+                Crane Spotting
+              </a>
+              <div
+                class="relative -mb-px h-px bg-black w-0"
+                style="transition: width 300ms ease;"
+              />
+            </li>
+            <li>
+              <a
+                href="/dropzone"
+              >
+                Drop Zone
+              </a>
+              <div
+                class="relative -mb-px h-px bg-black w-0"
+                style="transition: width 300ms ease;"
+              />
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <div
+      class="absolute h-[calc(100vh-7.5em)] w-4/5 ml-[20%] overflow-hidden bg-home-splash bg-cover bg-no-repeat"
+    />
+    <div
+      class="h-[calc(100vh-7.5em)] w-[75em] z-10 float-left relative bg-sky-grad"
+    >
+      <h1
+        class="ml-[1em] mt-[0.5em] leading-[1em] h-[calc(100vh-7.5em)] relative text-9xl text-white"
+      >
+        <a
+          href="/dropzone"
+        >
+          <span
+            class="text-apian-yellow"
+          >
+            Drop zone
+          </span>
+        </a>
+         selection and 
+        <a
+          href="cranespotting"
+        >
+          <span
+            class="text-apian-yellow"
+          >
+            crane avoidance
+          </span>
+        </a>
+          for drone deliveries
+      </h1>
+    </div>
+  </main>
+</DocumentFragment>
+`;
